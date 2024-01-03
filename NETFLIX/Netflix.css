@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.main{
+    background-image: url(Assets/Netflix\ Background.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;    
+    background-color: black;
+}
+nav{
+    padding-top: 10px;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    color: #E50914;
+    width: 170px;
+    position: relative;
+    z-index: 10;
+}
+.Nav2 button{
+    position: relative;
+    z-index: 10;
+}
+.language{
+    display: flex;
+    position: relative;
+    align-items: center;
+    z-index: 10;
+    background-color: transparent;
+    color: white;
+}
+.Nav2{
+    display: flex;
+    gap: 10px;
+}
+#signin{
+    height: 25px;
+    width: 65px;
+    background-color: #E50914;
+    border-radius: 5px;
+    color: white;
+}
+.text{
+    font-family: 'Martel Sans', sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* z-index: 10; */
+    gap: 20px;
+    padding: 20px;
+}
+#span1{
+    font-size: 45px;
+    font-weight: 900;
+    z-index: 10;
+}
+#span2{
+    font-size: 30px;
+    font-weight: 500;
+    z-index: 10;
+}
+#span3{
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 10;
+}
+.email{
+    z-index: 10;
+    display: flex;
+    align-items: center;
+}
+#getstarted{
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+.main input{
+    padding: 0px 30px;
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 5px solid white;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+.separation{
+    height: 10px;
+    width: 100%;
+    background-color: grey;
+}
+section{
+    height: 80vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    width: 50%;
+}
+#span4{
+    font-size: 50px;
+    font-weight: 900;
+}
+#span5{
+    font-size: 30px;
+    width: 70%;
+}
+.TV img{
+    width: 500px;
+    position: relative;
+    z-index: 10;
+}
+.TV video{
+    height: 220px;
+    position: absolute;
+    top: 122vh;
+    right: 10vw;
+}
+.text2{
+    color: white;
+    width: 40%;
+}
+#span6{
+    font-size: 60px;
+    font-weight: 900;
+}
+#span7{
+    font-size: 30px;
+    font-weight: 500;
+}
+.mobile img{
+    height: 450px;
+}
+.text3{
+    color: white;
+}
+#span8{
+    font-size: 60px;
+    font-weight: 900;
+}
+#span9{
+    font-size: 20px;
+    font-weight: 500;
+}
+.TV2 img{
+    height: 400px;
+    position: relative;
+    z-index: 10;
+}
+.TV2 video{
+    height: 190px;
+    position: absolute;
+    right: 13vw;
+    top: 130vw;
+}
+.kids img{
+    height: 450px;
+}
+.text4{
+    color: white;
+}
+#span10{
+    font-size: 60px;
+    font-weight: 900;
+}
+#span11{
+    font-size: 30px;
+}
+.FAQ{
+    height: 110vh;
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+}
+.FAQ h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+.questions{
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: #414141;
+    padding: 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.questions:hover {
+    background-color: grey;
+}
+.watch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+#span12{
+    color: #fff;
+    font-size: 20px;
+}
+.gmail{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.gmail input{
+    padding: 0px 30px;
+    height: 50px;
+    width: 400px;
+    font-size: 15px;
+    border-radius: 5px solid white;
+    background-color: rgba(23, 23, 23, 0.2);
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin: auto;
+    background-color: #000;
+}
+.footeritem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px 45px;
+}
+.footeritem p{
+    color: white;
+}
+.footeritem a{
+    color: white;
+}
